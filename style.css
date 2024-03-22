@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ddddddfc;
+    font-style: poppins; /* Ali created */
+}
+
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    font-style: poppins; /* Ali created */
+}
+
+.col1, .col2 {
+    display: block;
+    width: 50%;
+}
+
+.col2 img {
+    width: 550px;
+}
+
+.col1 {
+    padding: 5%;
+}
+
+
+#main-btn:hover ~ #main-img {
+    display: none;
+}
+
+#main-btn:hover ~ #second-img {
+    display: block;
+}
+
+#main-img {
+    display: block;
+}
+
+#second-img {
+    display: none;
+}
